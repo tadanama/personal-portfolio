@@ -29,16 +29,33 @@ body {
 }
 
 .navbar.flex {
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
 .hero {
-    height: 550px;
+	height: 550px;
 }
 
-.hero .hero-text{
-    border: 2px limegreen solid;
-    align-items: center;
+.hero.grid {
+	gap: 30px;
+}
+
+.hero img {
+    width: 100%;
+    margin-block: auto;
+    clip-path: circle();
+}
+
+.hero .hero-text {
+	/* border: 2px limegreen solid; */
+	margin-top: 100px;
+	padding: 20px 30px;
+}
+
+.hero-text h1 {
+	font-size: 45px;
+	font-weight: 900;
+	margin-bottom: 30px;
 }
 
 /* Utility class */
@@ -56,6 +73,6 @@ body {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
