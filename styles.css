@@ -28,8 +28,17 @@ body {
 	border-bottom: 2px solid black;
 }
 
+.navbar.flex {
+    justify-content: space-between;
+}
+
 .hero {
     height: 550px;
+}
+
+.hero .hero-text{
+    border: 2px limegreen solid;
+    align-items: center;
 }
 
 /* Utility class */
@@ -42,7 +51,7 @@ body {
 
 .flex {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
