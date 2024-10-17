@@ -7,7 +7,7 @@
 body {
 	min-height: 100dvh;
 	font-family: "Roboto", sans-serif;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .navbar-left span {
@@ -26,6 +26,10 @@ body {
 
 .navbar-right a:hover {
 	border-bottom: 2px solid black;
+}
+
+.hero {
+    height: 550px;
 }
 
 /* Utility class */
