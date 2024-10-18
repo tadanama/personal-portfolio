@@ -63,6 +63,10 @@ header.wrapper {
 	margin-bottom: 30px;
 }
 
+.about {
+	border: 2px solid black;
+}
+
 .about h2{
 	text-align: center;
 	font-size: 40px;
